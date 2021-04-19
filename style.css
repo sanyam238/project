@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background: linear-gradient(#160aff 0%, #05f0c1 100%);
+    background-repeat: no-repeat;
+}
+
+#image {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#Name {
+    text-shadow: 2px;
+    font-size: 120px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 40px;
+    line-height: 1.2;
+    color: darkviolet;
+}
+
+.line {
+    height: 6px;
+    width: 150px;
+    background-color: #000;
+    margin: 10px auto;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 20px;
+    background-color: darkmagenta;
+}
+
+.menu {
+    list-style: none;
+    font-family: serif;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.links {
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: yellowgreen;
+    display: inline;
